@@ -1,0 +1,50 @@
+.gradient-background {
+    background: linear-gradient(300deg, darkblue,skyblue,#1D5D9B);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .my_pic{
+    border-radius: 50%;
+  }
+
+  .text{
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+  }
+
+.web{
+    font-weight: bold;
+    font-size: larger;
+  }
+
+.float{
+    border-radius: 50%;
+    float: left;
+}
+
+.web1{
+    justify-self: left;
+    position: relative; left: -50px;
+}
+
+.lang{
+    font-weight: 500;
+    font-size: larger;
+}
+
+.R{
+    float:left;
+}
