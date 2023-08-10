@@ -35,10 +35,7 @@
     float: left;
 }
 
-.web1{
-    justify-self: left;
-    position: relative; left: -50px;
-}
+
 
 .lang{
     font-weight: 500;
@@ -48,3 +45,12 @@
 .R{
     float:left;
 }
+
+@media (min-width: 600px) {
+
+    /* CSS for screens below or equal to 600px wide */
+    .web1{
+        justify-self: left;
+        position: relative; left: -50px;
+    }
+  }
